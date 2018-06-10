@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="functional" verbose="2" allow-return-values="true">
+
+	<test name="positive" preserve-order="true">
+		<classes>
+			<class name="quixxiversion3.ChromeBrowser"/>
+			<class name="quixxiversion3.SignUp"/>
+			<class name="quixxiversion3.TermsAndConditions"></class>
+			<class name="quixxiversion3.SignInLink"></class>
+			<class name="quixxiversion3.ForgotPassword"></class>
+			<class name="quixxiversion3.SignInPage"></class>
+			<class name="quixxiversion3.QuixxiAccount"></class>
+			<class name="quixxiversion3.SubscriptionScreen"></class>
+			<class name="quixxiversion3.BillingScreen"></class>
+			<class name="quixxiversion3.OverviewAddPlatform"></class>
+			<class name="quixxiversion3.PackageAddPlatform"></class>
+			<class name="quixxiversion3.VerifyingDocs"></class>
+			<class name="quixxiversion3.VulnerabilityCheck"></class>
+			<class name="quixxiversion3.ProtectNow"></class>
+			<class name="quixxiversion3.CodeProtect"></class>
+			<class name="quixxiversion3.ControlFunction"></class>
+			<class name="quixxiversion3.MarketPlaceFunction"></class>
+			<class name="quixxiversion3.VideoandSupport"></class>
+			<class name="quixxiversion3.Logout"></class>
+		</classes>
+	</test>
+</suite>

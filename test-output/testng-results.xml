@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="functional" duration-ms="474836" started-at="2018-05-25T09:20:07Z" finished-at="2018-05-25T09:28:01Z">
+    <groups>
+      <group name="positive">
+        <method signature="ChromeBrowser.chrome()[pri:2, instance:quixxiversion3.ChromeBrowser@21213b92]" name="chrome" class="quixxiversion3.ChromeBrowser"/>
+        <method signature="ChromeBrowser.createReport()[pri:1, instance:quixxiversion3.ChromeBrowser@21213b92]" name="createReport" class="quixxiversion3.ChromeBrowser"/>
+        <method signature="Logout.signout()[pri:0, instance:null]" name="signout" class="quixxiversion3.Logout"/>
+        <method signature="PackageAddPlatform.newUser()[pri:2, instance:null]" name="newUser" class="quixxiversion3.PackageAddPlatform"/>
+        <method signature="PackageAddPlatform.package_addplatform()[pri:1, instance:null]" name="package_addplatform" class="quixxiversion3.PackageAddPlatform"/>
+        <method signature="SignInPage.signin([[Ljava.lang.Object;)[pri:0, instance:null]" name="signin" class="quixxiversion3.SignInPage"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="positive" duration-ms="474836" started-at="2018-05-25T09:20:07Z" finished-at="2018-05-25T09:28:01Z">
+      <class name="quixxiversion3.SignInPage">
+        <test-method status="PASS" signature="signin([[Ljava.lang.Object;)[pri:0, instance:null]" name="signin" duration-ms="55108" started-at="2018-05-25T14:50:26Z" data-provider="signin" finished-at="2018-05-25T14:51:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.Object;@405325cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+      </class> <!-- quixxiversion3.SignInPage -->
+      <class name="quixxiversion3.PackageAddPlatform">
+        <test-method status="PASS" signature="package_addplatform()[pri:1, instance:null]" name="package_addplatform" duration-ms="158558" started-at="2018-05-25T14:51:21Z" finished-at="2018-05-25T14:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- package_addplatform -->
+        <test-method status="PASS" signature="newUser()[pri:2, instance:null]" name="newUser" duration-ms="213584" started-at="2018-05-25T14:54:00Z" finished-at="2018-05-25T14:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUser -->
+      </class> <!-- quixxiversion3.PackageAddPlatform -->
+      <class name="quixxiversion3.Logout">
+        <test-method status="PASS" signature="signout()[pri:0, instance:null]" name="signout" duration-ms="28172" started-at="2018-05-25T14:57:33Z" finished-at="2018-05-25T14:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+      </class> <!-- quixxiversion3.Logout -->
+      <class name="quixxiversion3.ChromeBrowser">
+        <test-method status="PASS" signature="createReport()[pri:1, instance:quixxiversion3.ChromeBrowser@21213b92]" name="createReport" duration-ms="716" started-at="2018-05-25T14:50:07Z" finished-at="2018-05-25T14:50:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method status="PASS" signature="chrome()[pri:2, instance:quixxiversion3.ChromeBrowser@21213b92]" name="chrome" duration-ms="17944" started-at="2018-05-25T14:50:07Z" finished-at="2018-05-25T14:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+      </class> <!-- quixxiversion3.ChromeBrowser -->
+    </test> <!-- positive -->
+  </suite> <!-- functional -->
+</testng-results>
